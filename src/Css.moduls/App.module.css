@@ -1,0 +1,218 @@
+@font-face {
+   font-family: "Vazir";
+   src: url("../../public/fonts/Vazir.eot");
+   src: url("../../public/fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+      url("../../public/fonts/Vazir.woff2") format("woff2"),
+      url("../../public/fonts/Vazir.woff") format("woff"),
+      url("../../public/fonts/Vazir.ttf") format("truetype");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* .Margin {
+margin-left: 42em;
+margin-right: 42em;
+}
+
+body {
+    background-color: rgb(14, 152, 152);
+    text-align: center;
+}
+
+span {
+    font-size: 30px;
+}
+
+.Button {
+    border-radius: .5em;
+    background-color: whitesmoke
+}
+ */
+
+.h1 {
+   text-align: center;
+   text-decoration: underline;
+   margin-top: 1rem;
+   /* border-bottom: 1px solid; */
+   padding: 1rem 0;
+   font-family: var(--bs-font-sans-serif);
+
+}
+
+/* .divH {
+   background-color: #A6E3E9;
+}
+
+.menu {
+   background-color: #A6E3E9;
+   display: inline-block;
+} */
+
+/* .ul {
+    padding: .5rem;
+    margin-top: 2rem;
+    margin-left: 15em;
+ } */
+
+
+
+.divA {
+   /* border-left: 1px solid;
+    float: inline-start; */
+   padding: 2rem;
+   display: flex;
+   flex-direction: column;
+   border-left: 1px dotted;
+
+}
+
+
+li {
+   display: block;
+   padding: .1rem;
+}
+
+.outletA {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-right: 8rem;
+   /* margin: 1rem 25rem 0 0; */
+   /* float: inline-end; */
+   padding: 2rem;
+   /* border: 1px dotted; */
+   box-shadow: 1px 1px 22px 0px rgba(192, 235, 240, 5);
+}
+
+.nav {
+   /* display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap; */
+   text-align: center;
+   display: flex;
+   justify-content: start;
+   flex-direction: row;
+   margin-right: 5rem;
+   margin-top: 2rem;
+}
+
+/* .link{
+   display: block;
+   padding: .5rem;
+   text-decoration: none;
+}
+.link-active {
+      display: block;
+   padding: .5rem;
+   text-decoration: none;
+   color: red
+} */
+/* .linkNone{
+   text-decoration: none;
+} */
+
+.UL {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+.main {
+   margin: 0 7rem;
+   padding: 1rem 0;
+   /* box-shadow: inset 0px 0px 3px .1px rgba(192,235,240,5); */
+   box-shadow: 1px 1px 22px 0px rgba(192, 235, 240, 5);
+
+}
+
+.Outlet {
+   display: flex;
+   justify-content: end;
+
+}
+
+span {
+   padding: .4rem;
+}
+
+
+body {
+
+
+   /* background-color: #252a36; */
+   font-family: "Vazir", "tahoma", "Ubuntu" !important;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+   height: 100vh;
+   /* width: 100vh; */
+   background: rgb(255, 255, 255) no-repeat;
+   background: linear-gradient(rgba(255, 255, 255, 1) 60%, rgba(192, 235, 240, 1) 100%) no-repeat;
+
+}
+
+.allA {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: normal;
+   padding: 3rem 1.7rem;
+}
+
+.allB {
+   padding: 1rem;
+   width: 18rem
+
+}
+
+.allC {
+   padding: 1rem;
+
+}
+
+.button {
+   width: 46px;
+   height: 35px;
+   background-color: #5db7e9;
+   margin-left: -5px;
+   border-radius: 0 20% 20% 0;
+   text-shadow: 3px 0px 3px lightgray;
+
+}
+
+.button:hover {
+   padding: 5px 5px 0 0;
+}
+
+.button:active {
+   padding: 5px 5px 0 0;
+}
+
+.input {
+   width: 30rem;
+   height: 2.2rem;
+   background: linear-gradient(white, silver);
+   direction: rtl;
+   padding: 0 .6rem;
+
+}
+
+/* .vast {
+   flex-direction: column;
+   justify-content: start;
+} */
+
+form {
+   direction: ltr;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: 3rem 1rem;
+
+}
